@@ -56,13 +56,6 @@ function Header({setCategory}) {
             })
           }
         </ul>
-        <div>
-          {
-            setInterval(() => {
-              Date().toString()
-            }, 1000)
-          }
-        </div>
       </nav>
       </Container>
     </header>
